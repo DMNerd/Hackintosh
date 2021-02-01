@@ -14,6 +14,7 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 | --- | --- |
 | **MoBo** | [ASUS PRIME Z390-P](https://www.asus.com/cz/Motherboards-Components/Motherboards/All-series/PRIME-Z390-P/) |
 | **CPU** | [i5 9600K Coffee Lake](https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html) |
+| **CPU Cooler** | Arctic Freezer 34 eSports, white|
 | **iGPU** |  Intel UHD Graphics 630 |
 | **dGPU** | Sapphire Radeon RX 460 4GB [bios modded](https://www.overclock.net/forum/67-amd/1633317-wip-rx460-rx560-conversion-pack-asus-gigabyte-msi-powercolor-sapphire-xfx.html "bios modded") to RX 560 4GB. Make sure your card is on the confirmed working if you feel like not risking it (this one is) |
 | **RAM** | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white|
