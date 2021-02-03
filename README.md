@@ -24,4 +24,4 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 
 ## Native Power Management
 
-![PM](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/pm.png)
+![PM](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/pm.png)
