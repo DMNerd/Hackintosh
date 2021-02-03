@@ -5,7 +5,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.5
+Version: 0.6.6
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
