@@ -21,3 +21,7 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 | **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset |
 | **Storage for MAC** | 250gb Crucial Balistix SSD and 250gb Samsung 950 EVO + Seagate 1TB HDD and Seagate Barracuda 1TB HDD in raid 0|
 | **Case** | [Fortron CMT240](https://www.fsp-europe.com/CS/cmt240/) |
+
+## Native Power Management
+
+![PM](https://raw.githubusercontent.com/DMNerd/Hackintosh-H110M/master/Resources/Screenshots/pm.png)
