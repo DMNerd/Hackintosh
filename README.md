@@ -1,5 +1,5 @@
-# Hackintosh
-My new Hackintosh repository for prime Z390-p Hackintosh
+# BigSur Hackintosh Asus Z390-p
+My new Hackintosh repository for prime Z390-p Hackintosh. This was long time comming. This is not a full guide - it should serve as a outline/documentation of my build and insight as to why some thing are the way they are.
 
 ![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/Info.png)
 
@@ -12,7 +12,7 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 ## Hardware 
 | Part | Info/Link |
 | --- | --- |
-| **MoBo** | [ASUS PRIME Z390-P](https://www.asus.com/cz/Motherboards-Components/Motherboards/All-series/PRIME-Z390-P/) |
+| **MoBo** | [ASUS PRIME Z390-P](https://www.asus.com/Motherboards-Components/Motherboards/All-series/PRIME-Z390-P/) |
 | **CPU** | [i5 9600K Coffee Lake](https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html) |
 | **CPU Cooler** | Arctic Freezer 34 eSports, white|
 | **iGPU** |  Intel UHD Graphics 630 |
