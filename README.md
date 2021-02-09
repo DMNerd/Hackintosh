@@ -9,6 +9,10 @@ Version: 0.6.6
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
+### Working:
+
+As far as I can tell at this moment, this build is basically golden. Everything works as it should.
+
 ## Hardware 
 | Part | Info/Link |
 | --- | --- |
@@ -20,8 +24,28 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 | **RAM** | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white|
 | **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset |
 | **Storage for MAC** | 250gb Crucial Balistix SSD and 250gb Samsung 950 EVO + Seagate 1TB HDD and Seagate Barracuda 1TB HDD in raid 0|
-| **Case** | [Fortron CMT240](https://www.fsp-europe.com/CS/cmt240/) |
+| **Case** | [Fortron CMT240](https://www.fsp-europe.com/cmt240/) |
+| **PSU** | [Be quiet! System Power 9 - 600W ](https://www.bequiet.com/en/powersupply/1279) |
 
 ## Native Power Management
 
 ![PM](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/pm.png)
+
+## Kernel Extensions 
+
+This setup is a bit more complicated. It uses all the same Kexts as my old setip coincidentally. But it needs couple of others to function properly.
+
+
+**SMC:** [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
+
+**Sound:** [AppleALC](https://github.com/acidanthera/applealc/releases) - the correct layout id for this setup is 5
+
+**Graphics:** [Lilu](https://github.com/acidanthera/lilu/releases) and [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases)
+
+**LAN:** [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) 
+
+**NVMeFix:** [NVMeFix](https://github.com/acidanthera/NVMeFix/releases/tag/1.0.5) - this one is needed for the NVMe slots on the moterboard (2 in total)
+
+**RTCMemoryFixup:**[RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
+
+**AGPMInjector:**[AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) - this one is not needed, but it helps to attach the Apple GPU Power Managment kext onto the graphics card. Doesn't hurt to create, doesn't hurt to leave it out
