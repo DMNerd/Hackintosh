@@ -9,7 +9,7 @@ Version: 0.6.6
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
-### Working:
+### Working:
 
 As far as I can tell at this moment, this build is basically golden. Everything works as it should.
 
