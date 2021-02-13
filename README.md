@@ -33,7 +33,7 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 
 ## Kernel Extensions 
 
-This setup is a bit more complicated. It uses all the same Kexts as my old setip coincidentally. But it needs couple of others to function properly.
+This setup is a bit more complicated. It uses all the same Kexts as my old setup coincidentally. But it needs couple of others to function properly.
 
 
 **SMC:** [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
