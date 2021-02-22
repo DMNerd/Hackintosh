@@ -54,4 +54,4 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 Here's the guide to how I decided to map the USB ports. This does not get over the 15 port limit.
 
-![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/portmap.png)
+![USBMap](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/usbmap.png)
