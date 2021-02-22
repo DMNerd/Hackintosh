@@ -49,3 +49,9 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 **RTCMemoryFixup:**[RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
 **AGPMInjector:**[AGPMInjector](https://github.com/Pavo-IM/AGPMInjector) - this one is not needed, but it helps to attach the Apple GPU Power Managment kext onto the graphics card. Doesn't hurt to create, doesn't hurt to leave it out
+
+## USB Mapping
+
+Here's the guide to how I decided to map the USB ports. This does not get over the 15 port limit.
+
+![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/portmap.png)
