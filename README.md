@@ -48,7 +48,7 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 **RTCMemoryFixup:**[RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
-## USB Mapping
+## USB Mapping
 
 Here's the guide to how I decided to map the USB ports. This does not get over the 15 port limit.
 
