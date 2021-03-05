@@ -344,24 +344,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AGPMInjector.kext</string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
                     <string></string>
@@ -993,7 +975,7 @@
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>AAAAAA==</data>
+                <data>EjRWeJA=</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1067,7 +1049,7 @@
                 <key>KeyForgetThreshold</key>
                 <integer>5</integer>
                 <key>KeyMergeThreshold</key>
-                <integer>2</integer>
+                <integer>0</integer>
                 <key>KeySupport</key>
                 <true/>
                 <key>KeySupportMode</key>
