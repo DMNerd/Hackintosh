@@ -13,6 +13,12 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 
 As far as I can tell at this moment, this build is basically golden. Everything works as it should.
 
+* Wifi/Bluetooth ✅
+* File Vault ✅
+* Apple Services ✅
+* Hibernation in 'pmset -a hibernatemode 3' mode ✅
+* * Sleep overall behaves like it should
+
 ## Hardware 
 | Part | Info/Link |
 | --- | --- |
