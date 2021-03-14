@@ -17,7 +17,7 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 * File Vault ✅
 * Apple Services ✅
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
-* * Sleep overall behaves like it should
+    * Sleep overall behaves like it should
 
 ## Hardware 
 | Part | Info/Link |
