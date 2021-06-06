@@ -5,7 +5,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.7
+Version: 0.6.9
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
@@ -16,6 +16,7 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 * Wifi/Bluetooth ✅
 * File Vault ✅
 * Apple Services ✅
+    * iMessage  ✅
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
     * Sleep overall behaves like it should
 
@@ -27,7 +28,6 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 | **CPU Cooler** | Arctic Freezer 34 eSports, white|
 | **iGPU** |  Intel UHD Graphics 630 |
 | **dGPU** | ASRock Radeon Phantom Gaming D RX580 8G OC |
-| **dGPU 2** | Sapphire Radeon RX 460 4GB [bios modded](https://www.overclock.net/forum/67-amd/1633317-wip-rx460-rx560-conversion-pack-asus-gigabyte-msi-powercolor-sapphire-xfx.html "bios modded") to RX 560 4GB. Make sure your card is on the confirmed working if you feel like not risking it (this one is) |
 | **RAM** | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white|
 | **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset. I replaced the stock antennas with stronger ones for better coverage |
 | **Storage for MAC** | 128GB LiteOn NVMe SSD, 250GB Crucial Balistix SSD and 250GB Samsung 950 EVO + Seagate 1TB HDD and Seagate Barracuda 1TB HDD in raid 0|
