@@ -301,6 +301,24 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
 				<key>Arch</key>
 				<string>Any</string>
@@ -666,23 +684,23 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>CHANGEME</string>
-			<key>MaxBIOSVersion</key>
-			<false/>
+			<string>C02039701J9LNV9CB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>EjRWeJA=</data>
+			<data>PHw/D+2i</data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>CHANGEME</string>
+			<string>C02DG3YKJV3Q</string>
 			<key>SystemUUID</key>
-			<string>CHANGEME</string>
+			<string>737023D3-11C9-40F3-B30D-F8608248F2B7</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
