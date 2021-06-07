@@ -5,7 +5,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.9
+Version: 0.7.0
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
@@ -51,7 +51,9 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 **LAN:** [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) 
 
-**NVMeFix:** [NVMeFix](https://github.com/acidanthera/NVMeFix/releases/tag/1.0.5) - this one is needed for the NVMe slots on the moterboard (2 in total)
+**NVMeFix:** [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) - this one is needed for the NVMe slots on the moterboard (2 in total)
+
+**HibernationFixup** [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) - helps with hibernation
 
 **RTCMemoryFixup:**[RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
