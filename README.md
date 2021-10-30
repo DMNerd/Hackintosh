@@ -64,3 +64,13 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 Here's the guide to how I decided to map the USB ports. This does not get over the 15 port limit.
 
 ![USBMap](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/usbmap.png)
+
+## Useful Applications
+
+[Monitor control](https://github.com/MonitorControl/MonitorControl) to get control over the connected monitors brightness 
+
+`$ brew install monitorcontrol`
+
+[Karabiner Elements](https://karabiner-elements.pqrs.org) to get better control over non-apple keyboards
+
+`$ brew install karabiner-elements`
