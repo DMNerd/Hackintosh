@@ -7,7 +7,7 @@ Monterey installs with no problem!
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.7.5
+Version: 0.7.6
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
