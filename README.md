@@ -1,9 +1,9 @@
 # Monterey Hackintosh Asus Z390-p
 My new Hackintosh repository for prime Z390-p Hackintosh. This was long time comming. This is not a full guide - it should serve as a outline/documentation of my build and insight as to why some thing are the way they are.
 
-Monterey installs with no problem!
-
 ![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/Info.png)
+
+12.1 Running well, installs with no problem
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
