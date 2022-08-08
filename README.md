@@ -3,7 +3,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/Info.png)
 
-12.1 Running well, installs with no problem
+Ventura Beta confirmed working with my setup!
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
