@@ -7,7 +7,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.7.6
+Version: 0.8.3
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
@@ -63,7 +63,7 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 Here's the guide to how I decided to map the USB ports. This does not get over the 15 port limit.
 
-IN THE NEWEST VERSION - i swithced to different USB mapping method and Changed my setup a bit. It is very specific now and you should either use the old Kext - that is still in old version of this repo.
+IN THE NEWEST VERSION - i swithced to different USB mapping method and Changed my setup a bit. It is very specific to my setup and I urge you to do your own map.
 
 ## Useful Applications
 
