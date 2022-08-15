@@ -74,3 +74,6 @@ IN THE NEWEST VERSION - i switched to different USB mapping method and Changed m
 [Karabiner Elements](https://karabiner-elements.pqrs.org) to get better control over non-apple keyboards
 
 `$ brew install karabiner-elements`
+
+Browser Chooser for links
+`$ brew install --cask browserosaurus`
