@@ -62,32 +62,27 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 ## USB Mapping
 
-I use SSDT to map my ports for better future compatibility. You will have to create your own kext.
+I use SSDT to map my ports for better future compatibility. It is also OS agnostic - it will only change usb properties on MacOS. You will have to create your own kext.
 
-| SS02       | SS01 |  | SS09  | SS10 | HS12 | HS11     |
-|------------|------|--|-------|------|------|----------|
-| SS04       | SS03 |  |       |      |      |          |
-| SS06       | SS05 |  |       |      |      |          |
-|            |      |  | HS13  |      |      |          |
-| HS04       | HS03 |  |       |      |      |          |
-| HS06       | HS05 |  |       |      |      |          |
-|            |      |  |       |      |      |          |
-| Backplane: | 10   |  | Count | Name | Type | Location |
-| Front:     | 4    |  | 1     | SS01 | 0x03 | Back     |
-| Internal:  | 1    |  | 2     | SS02 | 0x03 | Back     |
-| Total:     | 15   |  | 3     | HS03 | 0x00 | Back     |
-|            |      |  | 4     | HS04 | 0x00 | Back     |
-|            |      |  | 5     | SS03 | 0x03 | Back     |
-|            |      |  | 6     | SS04 | 0x03 | Back     |
-|            |      |  | 7     | HS03 | 0x00 | Back     |
-|            |      |  | 8     | HS04 | 0x00 | Back     |
-|            |      |  | 9     | SS05 | 0x03 | Back     |
-|            |      |  | 10    | SS06 | 0x03 | Back     |
-|            |      |  | 11    | SS09 | 0x03 | Front    |
-|            |      |  | 12    | SS10 | 0x03 | Front    |
-|            |      |  | 13    | HS11 | 0x00 | Front    |
-|            |      |  | 14    | HS12 | 0x00 | Front    |
-|            |      |  | 15    | HS13 | 0xFF | Internal |
+| Count | Name | Type | Location |
+|-------|------|------|----------|
+| 1     | SS01 | 0x03 | Back     |
+| 2     | SS02 | 0x03 | Back     |
+| 3     | HS03 | 0x00 | Back     |
+| 4     | HS04 | 0x00 | Back     |
+| 5     | SS03 | 0x03 | Back     |
+| 6     | SS04 | 0x03 | Back     |
+| 7     | HS03 | 0x00 | Back     |
+| 8     | HS04 | 0x00 | Back     |
+| 9     | SS05 | 0x03 | Back     |
+| 10    | SS06 | 0x03 | Back     |
+| 11    | SS09 | 0x03 | Front    |
+| 12    | SS10 | 0x03 | Front    |
+| 13    | HS11 | 0x00 | Front    |
+| 14    | HS12 | 0x00 | Front    |
+| 15    | HS13 | 0xFF | Internal |
+
+Others are unused/disabled
 
 Reffer to it for better table with pretty colours
 
