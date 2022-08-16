@@ -65,7 +65,7 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 I use SSDT to map my ports for better future compatibility. You will have to create your own kext.
 
 | SS02       | SS01 |  | SS09  | SS10 | HS12 | HS11     |
-| ---------- | ---- |  | ----- | ---- | ---- | -------- |
+|------------|------|--|-------|------|------|----------|
 | SS04       | SS03 |  |       |      |      |          |
 | SS06       | SS05 |  |       |      |      |          |
 |            |      |  | HS13  |      |      |          |
