@@ -20,7 +20,8 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 * Apple Services ✅
     * iMessage  ✅
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
-    * Sleep overall behaves like on real mac and it is very impressive.
+    * Sleep overall behaves like on real mac.
+* Orinoco RX580 Framebuffer ✅
 
 ## Hardware 
 | Part | Info/Link |
@@ -61,9 +62,9 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 ## USB Mapping
 
-Here's the guide to how I decided to map the USB ports. This does not get over the 15 port limit.
+There is excel spreadsheet which explains how the USB is mapped.
 
-IN THE NEWEST VERSION - i switched to different USB mapping method and Changed my setup a bit. It is very specific to my setup and I urge you to do your own map.
+I use SSDT to map my ports for better future compatibility. You will have to create your own kext.
 
 ## Useful Applications
 
