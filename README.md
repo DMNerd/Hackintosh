@@ -7,7 +7,7 @@ Ventura Beta confirmed working with my setup!
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.8.3
+Version: 0.8.4
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
