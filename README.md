@@ -3,11 +3,9 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/Info.png)
 
-Ventura Beta confirmed working with my setup!
-
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.8.4
+Version: 0.8.5
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
@@ -22,6 +20,7 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
     * Sleep overall behaves like on real mac.
 * Orinoco RX580 Framebuffer ✅
+* Macos 13 Ventura
 
 ## Hardware 
 | Part | Info/Link |
@@ -62,7 +61,7 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 ## USB Mapping
 
-I use SSDT to map my ports for better future compatibility. It is also OS agnostic - it will only change usb properties on MacOS. You will have to create your own kext.
+I use SSDT to map my ports for better future compatibility. It is also OS agnostic - it will only change usb properties on MacOS. You will have to create your own kext/ssdt if not using my exact MOBO.
 
 | Count | Name | Type | Location |
 |-------|------|------|----------|
@@ -84,17 +83,8 @@ I use SSDT to map my ports for better future compatibility. It is also OS agnost
 
 Others are unused/disabled
 
-Reffer to it for better table with pretty colours
-
 ## Useful Applications
 
 [Monitor control](https://github.com/MonitorControl/MonitorControl) to get control over the connected monitors brightness 
 
 `$ brew install monitorcontrol`
-
-[Karabiner Elements](https://karabiner-elements.pqrs.org) to get better control over non-apple keyboards
-
-`$ brew install karabiner-elements`
-
-Browser Chooser for links
-`$ brew install --cask browserosaurus`
