@@ -17,10 +17,11 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 * File Vault ✅
 * Apple Services ✅
     * iMessage  ✅
+* Secure Boot ✅ 
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
     * Sleep overall behaves like on real mac.
 * Orinoco RX580 Framebuffer ✅
-* Macos 13 Ventura
+* Macos 13 Ventura ✅
 
 ## Hardware 
 | Part | Info/Link |
