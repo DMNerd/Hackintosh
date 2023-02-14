@@ -5,9 +5,9 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.8.7
+Version: 0.8.9
 
-OpenCanopy bootscreen is enabled and I am using the modern iconset
+OpenCanopy bootscreen is enabled and I am using the modern iconset. But Picker is set to function like the OG Apple picker and will only show up when holding apple keybinds.
 
 ### Working:
 
@@ -44,7 +44,6 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 ## Kernel Extensions 
 
 This setup is a bit more complicated. It uses all the same Kexts as my old setup coincidentally. But it needs couple of others to function properly.
-
 
 **SMC:** [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 
@@ -83,9 +82,3 @@ I use SSDT to map my ports for better future compatibility. It is also OS agnost
 | 15    | HS13 | 0xFF | Internal |
 
 Others are unused/disabled
-
-## Useful Applications
-
-[Monitor control](https://github.com/MonitorControl/MonitorControl) to get control over the connected monitors brightness 
-
-`$ brew install monitorcontrol`
