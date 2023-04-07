@@ -5,7 +5,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.8.9
+Version: 0.9.1
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset. But Picker is set to function like the OG Apple picker and will only show up when holding apple keybinds.
 
@@ -30,10 +30,10 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 | **CPU** | [i5 9600K Coffee Lake](https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html) |
 | **CPU Cooler** | Arctic Freezer 34 eSports, white|
 | **iGPU** |  Intel UHD Graphics 630 |
-| **dGPU** | ASRock Radeon Phantom Gaming D RX580 8G OC |
+| **dGPU** | AMD Radeon RX 5600 XT 6 GB |
 | **RAM** | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white|
 | **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset. I replaced the stock antennas with stronger ones for better coverage |
-| **Storage for MAC** | 128GB LiteOn NVMe SSD, 250GB Crucial Balistix SSD and 250GB Samsung 950 EVO + Seagate 1TB HDD and Seagate Barracuda 1TB HDD in raid 0|
+| **Storage for MAC** | 128GB LiteOn NVMe SSD, 250GB Crucial Balistix SSD and Seagate Barracuda 1TB HDD |
 | **Case** | [Fortron CMT240](https://www.fsp-europe.com/cmt240/) |
 | **PSU** | [Be quiet! System Power 9 - 600W ](https://www.bequiet.com/en/powersupply/1279) |
 
