@@ -40,7 +40,7 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 
 ## Native Power Management
 
-![PM] (<https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/pm.png>)
+![PM](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/pm.png)
 
 ## Kernel Extensions
 
