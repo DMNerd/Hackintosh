@@ -1,29 +1,30 @@
 # Ventura Hackintosh Asus Z390-p
+
 My new Hackintosh repository for prime Z390-p Hackintosh. This was long time comming. This is not a full guide - it should serve as a outline/documentation of my build and insight as to why some thing are the way they are.
 
 ![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/Info.png)
 
-## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
+## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 
 Version: 0.9.1
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset. But Picker is set to function like the OG Apple picker and will only show up when holding apple keybinds.
 
-### Working:
+### Working
 
 As far as I can tell at this moment, this build is basically golden. Everything works as it should.
 
 * Wifi/Bluetooth ✅
 * File Vault ✅
 * Apple Services ✅
-    * iMessage  ✅
-* Secure Boot ✅ 
+  * iMessage  ✅
+* Secure Boot ✅
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
-    * Sleep overall behaves like on real mac.
-* Orinoco RX580 Framebuffer ✅
-* Macos 13 Ventura ✅
+  * Sleep overall behaves like on real mac.
+* Macos 13.3 Ventura ✅
 
-## Hardware 
+## Hardware
+
 | Part | Info/Link |
 | --- | --- |
 | **MoBo** | [ASUS PRIME Z390-P](https://www.asus.com/Motherboards-Components/Motherboards/All-series/PRIME-Z390-P/) |
@@ -35,29 +36,29 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 | **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset. I replaced the stock antennas with stronger ones for better coverage |
 | **Storage for MAC** | 128GB LiteOn NVMe SSD, 250GB Crucial Balistix SSD and Seagate Barracuda 1TB HDD |
 | **Case** | [Fortron CMT240](https://www.fsp-europe.com/cmt240/) |
-| **PSU** | [Be quiet! System Power 9 - 600W ](https://www.bequiet.com/en/powersupply/1279) |
+| **PSU** | [Be quiet! System Power 9 - 600W](https://www.bequiet.com/en/powersupply/1279) |
 
 ## Native Power Management
 
-![PM](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/pm.png)
+![PM] (<https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/pm.png>)
 
-## Kernel Extensions 
+## Kernel Extensions
 
 This setup is a bit more complicated. It uses all the same Kexts as my old setup coincidentally. But it needs couple of others to function properly.
 
-**SMC:** [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
+**SMC:** [VirtualSMC](<https://github.com/acidanthera/VirtualSMC/releases>)
 
-**Sound:** [AppleALC](https://github.com/acidanthera/applealc/releases) - the correct layout id for this setup is 5
+**Sound:** [AppleALC](<https://github.com/acidanthera/applealc/releases>) - the correct layout id for this setup is 5
 
-**Graphics:** [Lilu](https://github.com/acidanthera/lilu/releases) and [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases)
+**Graphics:** [Lilu](<https://github.com/acidanthera/lilu/releases>) and [WhateverGreen](<https://github.com/acidanthera/whatevergreen/releases>)
 
-**LAN:** [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) 
+**LAN:** [RealtekRTL8111](<https://github.com/Mieze/RTL8111_driver_for_OS_X>)
 
-**NVMeFix:** [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) - this one is needed for the NVMe slots on the moterboard (2 in total)
+**NVMeFix:** [NVMeFix](<https://github.com/acidanthera/NVMeFix/releases>) - this one is needed for the NVMe slots on the moterboard (2 in total)
 
-**HibernationFixup** [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) - helps with hibernation
+**HibernationFixup** [HibernationFixup](<https://github.com/acidanthera/HibernationFixup/releases>) - helps with hibernation
 
-**RTCMemoryFixup:**[RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
+**RTCMemoryFixup:**[RTCMemoryFixup](<https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7>) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
 ## USB Mapping
 
