@@ -60,6 +60,13 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 **RTCMemoryFixup:**[RTCMemoryFixup](<https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7>) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
+## Custom ACPI
+
+My setup uses some nonstandart ACPI, which you should disable/remake yourself if you are not running the EXACT same hardware. Namely:
+
+**SSDT-RX5700XT.aml** - This ACPI improves performance (both idle and workload) on Radeon Navi10 cards (Works for both RX5600 XT/nonXT and RX5700 XT/nonXT)
+**SSDT-PORTS.aml** - Custom USB Mapping SSDT (reffer to the section below and or [This Excel document](<https://github.com/DMNerd/Hackintosh/blob/main/Extra/USBMAP.xlsx>))
+
 ## USB Mapping
 
 I use SSDT to map my ports for better future compatibility. It is also OS agnostic - it will only change usb properties on MacOS. You will have to create your own kext/ssdt if not using my exact MOBO.
