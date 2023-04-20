@@ -25,18 +25,18 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 
 ## Hardware
 
-| Part | Info/Link |
-| --- | --- |
-| **MoBo** | [ASUS PRIME Z390-P](<https://www.asus.com/Motherboards-Components/Motherboards/All-series/PRIME-Z390-P/>) |
-| **CPU** | [i5 9600K Coffee Lake](<https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html>) |
-| **CPU Cooler** | Arctic Freezer 34 eSports, white|
-| **iGPU** |  Intel UHD Graphics 630 |
-| **dGPU** | AMD Radeon RX 5600 XT 6 GB |
-| **RAM** | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white|
-| **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](<https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp>) natively supported wifi card based on the BCM94360CS2 chipset. I replaced the stock antennas with stronger ones for better coverage |
-| **Storage for MAC** | 128GB LiteOn NVMe SSD, 250GB Crucial Balistix SSD and Seagate Barracuda 1TB HDD |
-| **Case** | [Fortron CMT240](<https://www.fsp-europe.com/cmt240/>) |
-| **PSU** | [Be quiet! System Power 9 - 600W](<https://www.bequiet.com/en/powersupply/1279>) |
+| Part                | Info/Link                                                                                                                                                                                                                                            |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **MoBo**            | [ASUS PRIME Z390-P](<https://www.asus.com/Motherboards-Components/Motherboards/All-series/PRIME-Z390-P/>)                                                                                                                                            |
+| **CPU**             | [i5 9600K Coffee Lake](<https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html>)                                                                                                     |
+| **CPU Cooler**      | Arctic Freezer 34 eSports, white                                                                                                                                                                                                                     |
+| **iGPU**            | Intel UHD Graphics 630                                                                                                                                                                                                                               |
+| **dGPU**            | AMD Radeon RX 5600 XT 6 GB                                                                                                                                                                                                                           |
+| **RAM**             | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white                                                                                                                                                                                                 |
+| **Wifi/BT Card**    | [Fenvi HB1200 PCI WiFi](<https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp>) natively supported wifi card based on the BCM94360CS2 chipset. I replaced the stock antennas with stronger ones for better coverage |
+| **Storage for MAC** | 128GB LiteOn NVMe SSD, 250GB Crucial Balistix SSD and Seagate Barracuda 1TB HDD                                                                                                                                                                      |
+| **Case**            | [Fortron CMT240](<https://www.fsp-europe.com/cmt240/>)                                                                                                                                                                                               |
+| **PSU**             | [Be quiet! System Power 9 - 600W](<https://www.bequiet.com/en/powersupply/1279>)                                                                                                                                                                     |
 
 ## Native Power Management
 
