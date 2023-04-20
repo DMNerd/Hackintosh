@@ -60,6 +60,8 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 **RTCMemoryFixup:**[RTCMemoryFixup](<https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7>) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
+**SMCRadeonGPU.kext & RadeonSensor.kext:**[SMCRadeonGPU](<https://github.com/aluveitie/RadeonSensor>): Enables temperature sensors on newer Radeon GPUs
+
 ## Custom ACPI
 
 My setup uses some nonstandart ACPI, which you should disable/remake yourself if you are not running the EXACT same hardware. Namely:
