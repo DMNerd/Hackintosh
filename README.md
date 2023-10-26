@@ -6,7 +6,7 @@ My new Hackintosh repository for prime Z390-p Hackintosh. This was long time com
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 
-Version: 0.9.1
+Version: 0.9.5
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset. But Picker is set to function like the OG Apple picker and will only show up when holding apple keybinds.
 
