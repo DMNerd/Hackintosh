@@ -59,13 +59,13 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 **NVMeFix:** [NVMeFix](<https://github.com/acidanthera/NVMeFix/releases>) - this one is needed for the NVMe slots on the moterboard (2 in total)
 
-**HibernationFixup** [HibernationFixup](<https://github.com/acidanthera/HibernationFixup/releases>) - helps with hibernation
+**HibernationFixup:** [HibernationFixup](<https://github.com/acidanthera/HibernationFixup/releases>) - helps with hibernation
 
-**RTCMemoryFixup:**[RTCMemoryFixup](<https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7>) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
+**RTCMemoryFixup:** [RTCMemoryFixup](<https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7>) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
-**RestrictEvents:**[RestrictEvents](<https://github.com/acidanthera/RestrictEvents>) - Used for enabling sonoma support by revpatch=sbvmm
+**RestrictEvents:** [RestrictEvents](<https://github.com/acidanthera/RestrictEvents>) - Used for enabling sonoma support by revpatch=sbvmm
 
-**itlwm:**[itlwm](<https://github.com/OpenIntelWireless/itlwm>) - Used to enable my intel 8260 on Sonoma
+**itlwm:** [itlwm](<https://github.com/OpenIntelWireless/itlwm>) - Used to enable my intel 8260 on Sonoma
 
 ## Custom ACPI
 
