@@ -2,26 +2,29 @@
 
 My new Hackintosh repository for prime Z390-p Hackintosh. This was long time comming. This is not a full guide - it should serve as a outline/documentation of my build and insight as to why some thing are the way they are.
 
+Why do I still hackintosh the old way? I actually have a working setup for Sonoma on KVM but I love the old way and I love the work I have put into this project. I have a M1 MacBook and I like to use it but the desktop is fun too and I did not wanna loose the option.
+
 ![SysInfo](https://github.com/DMNerd/Hackintosh/blob/main/Extra/Screenshots/Info.png)
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 
-Version: 0.9.5
+Version: 0.9.7
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset. But Picker is set to function like the OG Apple picker and will only show up when holding apple keybinds.
 
 ### Working
 
-As far as I can tell at this moment, this build is basically golden. Everything works as it should.
+As of sonoma, fenvi cards do not work for wifi. Bluetooth still works and is enough for continuity. I added a Intel WIFI to my setup for Windows while back so I added the kext for it into my config
 
-* Wifi/Bluetooth ✅
+* Bluetooth ✅
 * File Vault ✅
 * Apple Services ✅
   * iMessage  ✅
 * Secure Boot ✅
 * Hibernation in 'pmset -a hibernatemode 3' mode ✅
   * Sleep overall behaves like on real mac.
-* Macos 13.3 Ventura ✅
+* Macos 14.2 Sonoma ✅
+* Windows 11 dualboot without SMBIOS injection
 
 ## Hardware
 
@@ -31,7 +34,8 @@ As far as I can tell at this moment, this build is basically golden. Everything 
 | **CPU**             | [i5 9600K Coffee Lake](<https://ark.intel.com/content/www/us/en/ark/products/134896/intel-core-i5-9600k-processor-9m-cache-up-to-4-60-ghz.html>)                                                                                                     |
 | **CPU Cooler**      | Arctic Freezer 34 eSports, white                                                                                                                                                                                                                     |
 | **iGPU**            | Intel UHD Graphics 630                                                                                                                                                                                                                               |
-| **dGPU**            | AMD Radeon RX 5600 XT 6 GB                                                                                                                                                                                                                           |
+| **dGPU1**           | NVIDIA RTX2060 6 GB                                                                                                                                                                                                                                  |
+| **dGPU2**           | AMD Radeon RX 580 8GB                                                                                                                                                                                                                                |
 | **RAM**             | Patriot VIPER RGB 16GB (2x8GB) DDR4 3200 CL16, white                                                                                                                                                                                                 |
 | **Wifi/BT Card**    | [Fenvi HB1200 PCI WiFi](<https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp>) natively supported wifi card based on the BCM94360CS2 chipset. I replaced the stock antennas with stronger ones for better coverage |
 | **Case**            | [Fortron CMT240](<https://www.fsp-europe.com/cmt240/>)                                                                                                                                                                                               |
@@ -59,13 +63,13 @@ This setup is a bit more complicated. It uses all the same Kexts as my old setup
 
 **RTCMemoryFixup:**[RTCMemoryFixup](<https://github.com/acidanthera/RTCMemoryFixup/releases/tag/1.0.7>) - this is needed to fix the RTC regions that cause the bios recovery issue. The blacklisted regions are: 58 and 59.
 
-**SMCRadeonGPU.kext & RadeonSensor.kext:**[SMCRadeonGPU](<https://github.com/aluveitie/RadeonSensor>): Enables temperature sensors on newer Radeon GPUs
+**RestrictEvents:**[RestrictEvents](<https://github.com/acidanthera/RestrictEvents>) - Used for enabling sonoma support by revpatch=sbvmm
+
+**itlwm:**[itlwm](<https://github.com/OpenIntelWireless/itlwm>) - Used to enable my intel 8260 on Sonoma
 
 ## Custom ACPI
 
 My setup uses some nonstandart ACPI, which you should disable/remake yourself if you are not running the EXACT same hardware. Namely:
-
-**SSDT-RX5700XT.aml** - This ACPI improves performance (both idle and workload) on Radeon Navi10 cards (Works for both RX5600 XT/nonXT and RX5700 XT/nonXT)
 
 **SSDT-PORTS.aml** - Custom USB Mapping SSDT (reffer to the section below and or [This Excel document](<https://github.com/DMNerd/Hackintosh/blob/main/Extra/USBMAP.xlsx>))
 
