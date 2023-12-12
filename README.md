@@ -14,7 +14,7 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset. But Picker i
 
 ### Working
 
-As of sonoma, fenvi cards do not work for wifi. Bluetooth still works and is enough for continuity. I added a Intel WIFI to my setup for Windows while back so I added the kext for it into my config
+As of sonoma, fenvi cards do not work for wifi. Bluetooth still works and is enough for continuity. Fun fact is that it actually works better now since it does not have to compete for antenas. I added a Intel WIFI to my setup for Windows while back so I added the kext for it into my config
 
 * Bluetooth ✅
 * File Vault ✅
